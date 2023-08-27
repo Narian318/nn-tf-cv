@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration-Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .divScroll {
+    overflow:scroll;
+    height:100px;
+    width:200px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <u><h3>REGISTRATION FORM</h3></u>
+        <div class="input">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="FIRST NAME" class="fname">
+      
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="LAST NAME" class="lname">
+        </div>
+        <div class="input">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <input type="text" placeholder="email" class="inpt">
+        </div>
+        <div class="input">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" placeholder="password" class="inpt">
+        </div>
+        <div class="input">
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <input type="text" placeholder="D.O.B" class="inpt">
+        </div>
+        <div class="input">
+            <h5>Gender</h5><input type="radio" name="r1"> MALE <input type="radio" name="r1"> FEMALE
+        </div>
+        <div class="input">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <input type="text" placeholder="CITY" class="inpt">
+        </div>
+        <form action="/action_page.php">
+            <label for="myfile">Upload</label>
+            <input type="file" id="myfile" name="myfile" multiple><br><br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
